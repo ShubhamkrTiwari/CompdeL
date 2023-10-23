@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "464384726706",
+    "project_id": "compdel-f88f5",
+    "storage_bucket": "compdel-f88f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464384726706:android:aaaaa09e929436140d5bab",
+        "android_client_info": {
+          "package_name": "com.example.compdel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu69IXQPmAfwaaaF6Ydi-4s1-yQP75u4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
