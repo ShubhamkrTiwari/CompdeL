@@ -9,8 +9,17 @@ class Biryaniinfo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_biryaniinfo)
-        val Biryani = findViewById<Button>(R.id.Biryani);
+        val swiggybiryani = findViewById<Button>(R.id.swiggyjalebi);
 
+        swiggybiryani.setOnClickListener {
+            val Intent = Intent(this, payment::class.java)
+            startActivity(Intent)
+        }
+        val zomobiryani = findViewById<Button>(R.id.zomomomo);
 
+        zomobiryani.setOnClickListener { this
+        val Intent = Intent(this, paymentzomato::class.java)
+        startActivity(Intent)
+        }
     }
 }

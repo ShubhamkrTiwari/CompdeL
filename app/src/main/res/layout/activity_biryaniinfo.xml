@@ -73,7 +73,7 @@
         app:srcCompat="@drawable/zomatto" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/swiggyjalebi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="₹164"
@@ -86,7 +86,7 @@
         app:layout_constraintVertical_bias="0.553" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/zomomomo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="₹172"
@@ -98,12 +98,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.669" />
 
-    <ViewAnimator
-        android:id="@+id/viewAnimator"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="-55dp" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

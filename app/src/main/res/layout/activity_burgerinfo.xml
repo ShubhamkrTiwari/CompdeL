@@ -57,7 +57,7 @@
         app:layout_constraintVertical_bias="0.674"
         app:srcCompat="@drawable/zomatto" />
     <Button
-        android:id="@+id/button"
+        android:id="@+id/swiggyjalebi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="₹65"
@@ -85,7 +85,7 @@
         app:layout_constraintVertical_bias="0.428" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/zomomomo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="₹74"

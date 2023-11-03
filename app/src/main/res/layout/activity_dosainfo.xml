@@ -75,7 +75,7 @@
         app:srcCompat="@drawable/swiggy" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/swiggydosa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="126"
@@ -87,7 +87,7 @@
         app:layout_constraintVertical_bias="0.553" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/zomodosa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="120"
