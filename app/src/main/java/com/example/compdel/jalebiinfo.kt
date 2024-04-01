@@ -16,7 +16,7 @@ class jalebiinfo : AppCompatActivity() {
         }
          val zomojalebi = findViewById<Button>(R.id.zomomomo)
         zomojalebi.setOnClickListener { this
-         val Intent = Intent(this, paymentzomato::class.java )
+          val Intent = Intent(this, payment::class.java )
            startActivity(Intent)
 
         }

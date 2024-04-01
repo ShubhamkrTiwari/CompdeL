@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background44"
     tools:context=".Burgerinfo">
+
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="306dp"
@@ -56,15 +57,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.674"
         app:srcCompat="@drawable/zomatto" />
+
     <Button
         android:id="@+id/swiggyjalebi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#F57C00"
         android:text="₹65"
         android:textSize="16dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintHorizontal_bias="0.647"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.553" />
@@ -88,8 +92,10 @@
         android:id="@+id/zomomomo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#D32F2F"
         android:text="₹74"
         android:textSize="16dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.646"

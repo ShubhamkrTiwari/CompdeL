@@ -11,12 +11,12 @@ class Dosainfo : AppCompatActivity() {
         setContentView(R.layout.activity_dosainfo)
         val swiggydosa = findViewById<Button>(R.id.swiggydosa);
         swiggydosa.setOnClickListener { this
-        val Intent= Intent(this, payment::class.java)
+           val Intent= Intent(this, payment::class.java)
             startActivity(Intent)
         }
         val zomodosa = findViewById<Button>(R.id.zomodosa);
         zomodosa.setOnClickListener { this
-        val Intent = Intent(this, paymentzomato::class.java)
+         val Intent = Intent(this, payment::class.java)
           startActivity(Intent)
         }
     }

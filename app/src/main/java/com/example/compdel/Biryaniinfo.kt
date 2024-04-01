@@ -18,7 +18,7 @@ class Biryaniinfo : AppCompatActivity() {
         val zomobiryani = findViewById<Button>(R.id.zomomomo);
 
         zomobiryani.setOnClickListener { this
-        val Intent = Intent(this, paymentzomato::class.java)
+        val Intent = Intent(this, payment::class.java)
         startActivity(Intent)
         }
     }

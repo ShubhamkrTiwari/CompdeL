@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/images"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <ImageView
@@ -13,20 +13,19 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.445"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.557"
+        app:layout_constraintVertical_bias="0.499"
         app:srcCompat="@drawable/compdell" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="151dp"
         android:layout_height="28dp"
-        android:text="ShubhamKrTiwari"
-        android:textColor="#F0F1F4"
+        android:text="Made with💙😊"
+        android:textColor="#388E3C"
         android:textSize="19dp"
-        android:textStyle="italic"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.46"

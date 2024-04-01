@@ -17,16 +17,18 @@ class MainActivity2 : AppCompatActivity() {
             val Intent = Intent(this, MainActivity3::class.java)
             startActivity(Intent)
 
+
             val text = "Opening!"
             val toast = Toast.makeText(this, text, Toast.LENGTH_SHORT)
             toast.show()
+        }
 
-            val aboutus = findViewById<Button>(R.id.aboutus);
+        val aboutus = findViewById<Button>(R.id.aboutus);
 
             aboutus.setOnClickListener {
                 val Intent = Intent(this, MainActivity4::class.java)
                 startActivity(Intent)
             }
-        }
+
     }
 }

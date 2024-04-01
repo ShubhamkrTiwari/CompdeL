@@ -12,13 +12,13 @@ class momosinfo : AppCompatActivity() {
         val swiggymomo =findViewById<Button>(R.id.swiggymomo);
 
         swiggymomo.setOnClickListener {
-            val Intent = Intent(this, payment::class.java)
+               val Intent = Intent(this, payment::class.java)
                 startActivity(Intent)
 
         }
          val zomomomo = findViewById<Button>(R.id.zomomomo);
         zomomomo.setOnClickListener { this
-        val Intent = Intent(this,paymentzomato::class.java)
+         val Intent = Intent(this,payment::class.java)
           startActivity(Intent)
         }
     }

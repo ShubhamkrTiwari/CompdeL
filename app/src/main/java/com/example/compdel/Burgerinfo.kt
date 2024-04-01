@@ -17,7 +17,7 @@ class Burgerinfo : AppCompatActivity() {
         }
         val zomoburger = findViewById<Button>(R.id.zomomomo);
         zomoburger.setOnClickListener { this
-        val Intent = Intent(this, paymentzomato::class.java)
+          val Intent = Intent(this, payment::class.java)
            startActivity(Intent)
         }
     }
