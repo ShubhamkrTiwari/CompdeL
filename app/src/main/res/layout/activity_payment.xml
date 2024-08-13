@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="88dp"
-        android:layout_height="72dp"
+        android:layout_width="50dp"
+        android:layout_height="49dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -20,9 +20,9 @@
         app:srcCompat="@drawable/orderpic" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="401dp"
-        android:layout_height="49dp"
+        android:id="@+id/upilink"
+        android:layout_width="253dp"
+        android:layout_height="61dp"
         android:backgroundTint="#388E3C"
         android:shadowRadius="@integer/material_motion_duration_long_2"
         android:text="Pay Using UPI"
@@ -32,18 +32,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.796" />
+        app:layout_constraintVertical_bias="0.845" />
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="60dp"
-        android:layout_height="68dp"
+        android:layout_width="46dp"
+        android:layout_height="49dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintHorizontal_bias="0.389"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.212"
+        app:layout_constraintVertical_bias="0.173"
         app:srcCompat="@drawable/swiggy" />
 
     <TextView
@@ -51,64 +51,143 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Payment through"
-        android:textColor="#0097A7"
+        android:textColor="#275907"
         android:textSize="21dp"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button5"
-        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintEnd_toEndOf="@+id/upilink"
+        app:layout_constraintHorizontal_bias="0.733"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.14" />
+        app:layout_constraintVertical_bias="0.103" />
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="49dp"
-        android:layout_height="53dp"
+        android:layout_width="51dp"
+        android:layout_height="46dp"
         android:background="#FA0606"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.211"
+        app:layout_constraintVertical_bias="0.172"
         app:srcCompat="@drawable/zomatto" />
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="61dp"
-        android:layout_height="53dp"
+        android:layout_width="64dp"
+        android:layout_height="58dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintHorizontal_bias="0.285"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367"
+        app:layout_constraintVertical_bias="0.349"
         app:srcCompat="@drawable/gpaylogo" />
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="57dp"
-        android:layout_height="54dp"
+        android:layout_width="55dp"
+        android:layout_height="56dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.459"
+        app:layout_constraintVertical_bias="0.347"
         app:srcCompat="@drawable/phonepaylogo" />
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="50dp"
-        android:layout_height="51dp"
+        android:layout_width="47dp"
+        android:layout_height="52dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintHorizontal_bias="0.714"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551"
+        app:layout_constraintVertical_bias="0.346"
         app:srcCompat="@drawable/amazonpaylogo" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="63dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.013"
+        app:srcCompat="@drawable/compdell" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gpay"
+        android:textColor="#121010"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phonepay"
+        android:textColor="#0E0E0E"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amazonpay"
+        android:textColor="#090808"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="powered by razorpay"
+        android:textColor="#5E35B1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="100dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView16"
+        app:layout_constraintVertical_bias="0.612"
+        app:srcCompat="@drawable/razorpaylogo" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

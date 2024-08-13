@@ -11,7 +11,7 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-        val btnOk = findViewById<Button>(R.id.btnOk);
+        val btnOk = findViewById<Button>(R.id.btnOk)
 
         btnOk.setOnClickListener {
             val Intent = Intent(this, MainActivity3::class.java)
@@ -23,7 +23,7 @@ class MainActivity2 : AppCompatActivity() {
             toast.show()
         }
 
-        val aboutus = findViewById<Button>(R.id.aboutus);
+          val aboutus = findViewById<Button>(R.id.aboutus)
 
             aboutus.setOnClickListener {
                 val Intent = Intent(this, MainActivity4::class.java)
