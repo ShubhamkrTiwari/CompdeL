@@ -54,11 +54,11 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="359dp"
+        android:layout_height="130dp"
         android:text="CompdeL is an Indian food price comparing and delivery platform
 Founded in 2023, Besides food delivery, the platform also provide tyhe real timetyracing of price of food item"
-        android:textColor="#FF9E80"
+        android:textColor="@color/white"
         android:textSize="21dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
