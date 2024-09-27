@@ -23,12 +23,12 @@ class MainActivity2 : AppCompatActivity() {
             toast.show()
         }
 
-          val aboutus = findViewById<Button>(R.id.aboutus)
+        val aboutus = findViewById<Button>(R.id.aboutus)
 
-            aboutus.setOnClickListener {
-                val Intent = Intent(this, MainActivity4::class.java)
-                startActivity(Intent)
-            }
-
+        aboutus.setOnClickListener {
+            val Intent = Intent(this, MainActivity4::class.java)
+            startActivity(Intent)
+        }
     }
+
 }
