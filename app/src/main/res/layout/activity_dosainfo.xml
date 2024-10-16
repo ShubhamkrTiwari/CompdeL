@@ -40,7 +40,7 @@
         android:layout_width="266dp"
         android:layout_height="63dp"
         android:text="A dosa is South Indian, fermented crepe made from rice batter and black lentils "
-        android:textColor="#1BE4E4"
+        android:textColor="#E9EFEF"
         android:textSize="19dp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
