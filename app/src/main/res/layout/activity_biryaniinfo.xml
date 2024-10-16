@@ -35,8 +35,8 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="266dp"
-        android:layout_height="63dp"
+        android:layout_width="281dp"
+        android:layout_height="73dp"
         android:text="Biryani is prepared from basmati rice mixed with several spices and cooked in a special way. "
         android:textColor="#E2EAEA"
         android:textSize="19dp"
