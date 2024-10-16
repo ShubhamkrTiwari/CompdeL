@@ -36,12 +36,12 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="272dp"
-        android:layout_height="87dp"
+        android:layout_width="284dp"
+        android:layout_height="96dp"
         android:text="Jalebis are Indian desserts made by deep-frying a wheat flour (maida flour) batter in pretzel or circular shapes "
-        android:textColor="#1BE4E4"
+        android:textColor="#EFF3F3"
         android:textSize="19dp"
-        android:textStyle="italic"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
