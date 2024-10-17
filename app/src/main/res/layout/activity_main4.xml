@@ -60,6 +60,7 @@
 Founded in 2023, Besides food delivery, the platform also provide tyhe real timetyracing of price of food item"
         android:textColor="@color/white"
         android:textSize="21dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
