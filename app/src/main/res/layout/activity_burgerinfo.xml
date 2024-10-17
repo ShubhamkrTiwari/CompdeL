@@ -78,7 +78,7 @@
         android:layout_width="266dp"
         android:layout_height="63dp"
         android:text="A burger is a patty of ground beef grilled and placed between two halves of a bun"
-        android:textColor="#1BE4E4"
+        android:textColor="#EFF3F3"
         android:textSize="19dp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
