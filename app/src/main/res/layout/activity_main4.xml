@@ -87,7 +87,7 @@ Founded in 2023, Besides food delivery, the platform also provide tyhe real time
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="+917091876884"
-        android:textColor="#DD2C00"
+        android:textColor="#F3F0EF"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
