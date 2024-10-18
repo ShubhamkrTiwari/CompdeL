@@ -42,7 +42,7 @@
         android:shadowDy="0"
         android:shadowRadius="50"
         android:text="About Us"
-        android:textColor="#00ACC1"
+        android:textColor="#00C853"
         android:textSize="21dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
