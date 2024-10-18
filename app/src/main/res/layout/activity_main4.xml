@@ -113,14 +113,14 @@ Founded in 2023, Besides food delivery, the platform also provide tyhe real time
 
     <ImageView
         android:id="@+id/imageView23"
-        android:layout_width="61dp"
-        android:layout_height="58dp"
+        android:layout_width="52dp"
+        android:layout_height="51dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.025"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.649"
+        app:layout_constraintVertical_bias="0.652"
         app:srcCompat="@drawable/ic_launcher_foreground" />
 
     <ImageView
