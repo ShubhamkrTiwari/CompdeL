@@ -24,7 +24,7 @@
         android:id="@+id/returnmenu"
         android:layout_width="104dp"
         android:layout_height="57dp"
-        android:backgroundTint="#AA00FF"
+        android:backgroundTint="#00B8D4"
         android:text="Return"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
